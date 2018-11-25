@@ -12,10 +12,6 @@ end
 
 def assign_rooms(speakers)
   assignment = []
-  rooms = [1..7]
-
-def assign_rooms(speakers)
-  assignment = []
   speakers.each_with_index do |i, index |
     assignment.push("Hello, #{i}! You'll be assigned to room #{index}")
   end
